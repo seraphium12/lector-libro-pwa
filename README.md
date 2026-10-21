@@ -52,3 +52,14 @@ Abre la URL HTTPS de GitHub Pages en Chrome y usa el menú ⋮ → «Instalar ap
 
 ### Novedad de la versión 0.4: vista visual del OCR
 Después de procesar una foto aparece una vista previa con cajas dibujadas sobre las palabras detectadas por Tesseract. Verde indica confianza estimada alta y naranja una confianza menor; no es una garantía de que la palabra sea correcta. Puedes alternar entre foto original y procesada, y ocultar o mostrar las cajas. El reconocimiento sigue ejecutándose después de tomar la foto; esta versión no dibuja texto en tiempo real mientras apuntas la cámara.
+
+
+## Versión 0.5 — limpieza de texto OCR
+
+- Une líneas de texto que solo provienen de la maquetación de la página.
+- Recompone palabras cortadas con guion al final de línea, también entre dos páginas escaneadas.
+- Elimina barras verticales espurias (`|`) y algunos artefactos de puntuación comunes.
+- Conserva los párrafos, permite limpiar manualmente el texto y aplica la limpieza al exportar TXT/EPUB y al reproducir voz.
+- Ajusta la vista de la imagen OCR para que quepa mejor en la pantalla del móvil y muestra la variante seleccionada por el OCR automático.
+
+La limpieza es deliberadamente conservadora: no puede corregir de forma segura todas las palabras mal reconocidas. Revisa nombres propios y errores de contenido.
