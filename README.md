@@ -23,3 +23,4 @@ Con Python instalado, ejecuta en esta carpeta `python -m http.server 8000` y abr
 
 ## Probar en el móvil
 Para instalar una PWA el sitio debe servirse por HTTPS. Sube estos archivos a un hosting estático HTTPS (por ejemplo GitHub Pages, Cloudflare Pages o Netlify) y abre la URL en Chrome para Android. Menú ⋮ → «Instalar aplicación» o «Añadir a pantalla de inicio».
+https://seraphium12.github.io/lector-libro-pwa/
