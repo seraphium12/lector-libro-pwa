@@ -48,3 +48,7 @@ Abre la URL HTTPS de GitHub Pages en Chrome y usa el menú ⋮ → «Instalar ap
 - Se configura Tesseract para reconocer una página como un bloque de texto, un ajuste habitual para páginas de libros.
 
 **Importante:** no existe un filtro que pueda separar perfectamente el texto del anverso y del reverso en todas las fotografías. La versión 0.3 necesita probarse con páginas reales; el modo «Foto original» permite comparar el resultado cuando el filtro no ayuda.
+
+
+### Novedad de la versión 0.4: vista visual del OCR
+Después de procesar una foto aparece una vista previa con cajas dibujadas sobre las palabras detectadas por Tesseract. Verde indica confianza estimada alta y naranja una confianza menor; no es una garantía de que la palabra sea correcta. Puedes alternar entre foto original y procesada, y ocultar o mostrar las cajas. El reconocimiento sigue ejecutándose después de tomar la foto; esta versión no dibuja texto en tiempo real mientras apuntas la cámara.
