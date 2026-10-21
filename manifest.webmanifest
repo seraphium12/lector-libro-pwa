@@ -1,1 +1,1 @@
-{"name":"Lector de libro","short_name":"Lector","description":"Escanea páginas y escúchalas en voz alta","start_url":"./","scope":"./","display":"standalone","background_color":"#f4f6f9","theme_color":"#18212f","icons":[]}
+{"name":"Lector de libro","short_name":"Lector","description":"Escanea páginas, importa EPUB y escucha tus libros","start_url":"./","scope":"./","display":"standalone","background_color":"#f4f6f9","theme_color":"#18212f","icons":[]}
